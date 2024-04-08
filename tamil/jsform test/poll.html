@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLLING</title>
+    <link rel="stylesheet" href="poll.css">
+</head>
+
+<body>
+    <div id="container">
+        <p>WHAT IS YOUR FAVOURITE FOOD?</p>
+        <div id="question">
+
+            <div class="food-menu" style="margin-bottom: 20px;">
+                <input type="radio" id="briyani" name="fav_food" onclick="updateval(0)">
+                <label for="briyani">BRIYANI</label>
+            </div>
+            <div class="food-menu" style="margin-bottom: 20px;">
+                <input type="radio" id="savarma" name="fav_food" onclick="updateval(2)">
+                <label for="savarma">SAVARMA</label>
+            </div>
+            <div class="food-menu" style="margin-bottom: 20px;">
+                <input type="radio" id="chicken" name="fav_food" onclick="updateval(1)">
+                <label for="chicken">CHICKEN 65</label>
+            </div>
+            <div class="food-menu" style="margin-bottom: 20px;">
+                <input type="radio" id="vegtali" name="fav_food" onclick="updateval(3)">
+                <label for="vegtali">VEG TALI </label>
+            </div>
+        </div>
+    </div>
+    <div id="chart">
+        <canvas id="myChart"></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.js"></script>
+    <script src="poll.js"></script>
+</body>
+
+</html>

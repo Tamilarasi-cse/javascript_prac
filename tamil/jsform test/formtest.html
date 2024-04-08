@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="formtest.css">
+    <script src="re.js" defer></script>
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <h1>Call detail record</h1>
+            <h5>Please fill the form below clearly indicating your intrested call type and best time for calling</h5><hr>
+            <div class="input-group">
+                <label for="calltype">Call Type</label>
+                <input type="radio" id="inbound" name="calltype">inbound</input><br>
+                <input type="radio" id="outbound" name="calltype">outbound</input><br>
+                <input type="radio" id="Conference" name="calltype">Conference</input>
+            </div>
+            <div class="name">
+                <label for="name">Name of Person</label>
+                <div>
+                <input type="text" id="name" name="name" >
+                <div id="nm"><label for="name">First Name </label>
+                </div> 
+                <input type="text" id="lname" name="lname" >
+                <label for="lm" id="lm">Last Name</label>
+                </div>
+                
+                <div class="error"></div>
+            </div>
+            <div class="ps">
+                <label for="phone Number">Phone Number</label>
+                <input type="text" id="phone" name="phone">
+                <div class="error"></div>
+            </div>
+            <div class="Client">
+                <label for="Cilent">Client</label>
+                <select id="cl">
+                    <option >select</option>
+                    <option value="Amazon">Amazon</option>
+                    <option value="IBM">IBM</option>
+                    <option value="Google">Google</option>
+                </select>
+                <div class="error"></div>
+            </div>
+            <div class="ot">
+                <label for="Other">Other </label>
+                <input type="text" id="other" name="other">
+                <div class="error"></div>
+            </div>
+            <div class="nt">
+                <label for="Note">Notes </label>
+                <textarea name="notes" id="nts" cols="20" rows="5" placeholder="type here"></textarea>
+                <div class="error"></div>
+            </div>
+            <div class="dt">
+                <label for="date">Date </label>
+                <input type="date" tabindex="Date" id="date" name="date"><hr>
+                <div class="error"></div>
+            </div>
+            <button id = "submit" type="submit" >Submit Form</button>
+        </form>
+    </div>
+</body>
+</html>

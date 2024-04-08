@@ -1,0 +1,131 @@
+body
+{
+    background-attachment: fixed;
+}
+#form
+{
+    margin: 20vh auto 0 auto;
+    width: 500px;   
+    height: auto;
+    background-color: whitesmoke;
+    border:5px solid black;
+    padding: 20px;
+}
+#inbound{
+    margin-left: 60px;
+}
+#outbound{
+    margin-left: 143px;
+}
+#Conference{
+    margin-left: 143px;
+}
+h1{
+    text-align: left;
+    color: black;
+    
+}
+h6{
+    text-align: left;
+    font-size: small;
+}
+.input-group
+{
+   margin-bottom: 10px;
+   font-size: 20px;
+   color: black;
+   margin-top: 10px;
+}
+#name
+{
+    width: 150px;
+    height: auto;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#nm
+{
+    width: 150px;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 10px;
+    display: grid;
+    
+}
+#lm
+{
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    gap: 80px;
+}
+
+#form button{
+    background-color:black;
+    color: white;
+    align-items: center;
+    
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 175px;
+
+}
+
+.ps{
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#phone{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#cl{
+    width: 186px;
+    height: 23px;
+    margin-top: 10px;
+    margin-left: 106px;
+}
+.client{
+    margin-left: 105px;
+    margin-top: 10px;
+}
+.ot{
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#other{
+    margin-left: 107px;
+    margin-top: 10px;
+    width: 180px;
+}
+.nt{
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+}
+#nts{
+    margin-left: 107px;
+    margin-top: 10px;
+}
+.dt{
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#date{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.input-group .error{
+    color:rgb(242, 18, 18);
+    font-size:16px;
+    margin-top: 5px;
+}
+
+.input-group.success input{
+    border-color: #0cc477;
+}
+
+.input-group.error input{
+    border-color:rgb(206, 67, 67);
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(27, 68, 64);
+
+}
+
+.form
+{
+    background-color: rgb(204, 187, 154);
+    height: auto;
+    width: 500px;
+    align-items: center;
+    margin: 200px auto 20px;
+    padding: 20px;
+}

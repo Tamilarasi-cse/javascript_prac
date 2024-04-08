@@ -12,6 +12,8 @@ body
     background-color: whitesmoke;
     border-radius: 5px; 
     padding: 20px;
+    
+
 }
 h1{
     text-align: center;
@@ -26,6 +28,7 @@ h1{
     cursor: pointer;
     border-radius: 5px;
     font-size: 15px;
+    justify-content: center;
 
 }
 .input-group
